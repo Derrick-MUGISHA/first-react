@@ -1,19 +1,53 @@
-# React + Vite
+# These is a creact starter project that introduces use to ``React`` and React Router Dome 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Getting Started with the Project 
 
-Currently, two official plugins are available:
+every time you need to use thes code within the project you need to run the following command and these should be a habite
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+# 1. Check if you have npm installed
+ thought the process of installing **node js**  ``npm`` should be installed with it and the is the key not to run a ``React`` Project 
 
-## React Compiler
+````
+npm -v or  npm --version
+````
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+# 2. Cloning the Project 
+  
+  these is the act of downloding the project form ``github``
 
-Note: This will impact Vite dev & build performances.
-You can also try [the experimental native React Compiler support in plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md#rust-react-compiler) by using `compiler: true` in the plugin options instead of using the Babel plugin.
+````
+git clone <URL OF THE PROJECT>
 
-## Expanding the ESLint configuration
+````
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 3. To navigate in the clone project 
+
+````
+cd <PROJECT NAME>
+
+````
+
+## 4. Installing the dependencies
+
+````
+npm install or npm i
+
+````
+
+## 5. Running the project 
+   
+   these is the act of running the project in the development mode to wright and test your codes before deployment 
+
+   # Local development server runs at http://localhost:5173/
+
+````
+npm run dev
+
+````
+   # Production mode 
+   these is the test you do to see if your project and build on the production server
+
+````
+npm run build
+
+````

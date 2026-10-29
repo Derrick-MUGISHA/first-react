@@ -1,5 +1,5 @@
 import './topic.css'
-import react from '../../public/images/images.png' 
+import react from '../asset/images/images.png' 
 
 export default function Topic() {
     return (

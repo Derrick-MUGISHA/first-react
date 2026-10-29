@@ -1,7 +1,6 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import "./nav.css"
-
-
-
+import { faAddressBook, faBars, faCircleInfo, faHouse } from "@fortawesome/free-solid-svg-icons"
 export default function Nav() {
     return (
         <>
@@ -9,11 +8,14 @@ export default function Nav() {
             <header>
                 <h1>React</h1>
             </header>
-            <ul cla>
-                <li><a href="https://www.google.com">Home</a></li>
-                <li><a href="https://www.google.com">About</a></li>
-                <li><a href="https://www.google.com">Contact</a></li>
+            <ul className="nav-links">
+                <li><a href="https://www.google.com"><FontAwesomeIcon icon={faHouse} /> HomeHome</a></li>
+                <li><a href="https://www.google.com"><FontAwesomeIcon icon={faCircleInfo} /> About</a></li>
+                <li><a href="https://www.google.com"><FontAwesomeIcon icon={faAddressBook} /> Contact</a></li>
             </ul>
+            <div className="nav-toggle">
+                <FontAwesomeIcon icon={faBars} />
+            </div>
         </nav>
         </>
     )
