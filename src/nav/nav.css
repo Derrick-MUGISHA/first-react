@@ -52,3 +52,21 @@ header {
     border-radius: 5px;
     padding: 5px 10px;
 }
+
+.nav-toggle {
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    display: none;
+}
+
+
+@media screen and (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+
+    .nav-toggle {
+        display: block;
+    }
+}
