@@ -38,13 +38,13 @@ npm install or npm i
    
    these is the act of running the project in the development mode to wright and test your codes before deployment 
 
-   # Local development server runs at http://localhost:5173/
+   # Local development server runs at [Local development server](http://localhost:5173/)
 
 ````
 npm run dev
 
 ````
-   # Production mode 
+   # Production mode at [Production development server](https://first-react-ruddy-zeta.vercel.app/)
    these is the test you do to see if your project and build on the production server
 
 ````
