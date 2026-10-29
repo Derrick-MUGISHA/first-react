@@ -1,11 +1,16 @@
-function App() {
+import Nav from "./nav/nav";
+import "./index.css"
+import Hero from "./hero/hero";
+import Topic from "./topic/topic";
+import Footer from "./footer/footer";
+
+export default function App() {
   return (
-    <div className="App">
-      <h1>My First React App</h1>
-      <p>This is a paragraph</p>
-      <img src="https://picsum.photos/200" alt="Random Image" />
-    </div>
+    <>
+    <Nav />
+    <Hero />
+    <Topic />
+    <Footer />
+    </>
   )
 }
-
-export default App
